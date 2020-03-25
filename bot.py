@@ -1,7 +1,7 @@
 import telebot
 import psycopg2
 
-bot = telebot.TeleBot("953251164:AAGjwA1E-Eq7wki3oqXCSfidsp-PYun4Oy0")
+bot = telebot.TeleBot("YOUR TELEGRAM TOKEN")
 
 
 user_data ={}
@@ -9,8 +9,8 @@ user_data ={}
 con = psycopg2.connect(
     host = "localhost",
     database = "restaurants",
-    user = "postgres",
-    password = "2825767Yer",
+    user = "USER",
+    password = "PASSWORD",
     port = "5432"
 )
 
