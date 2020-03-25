@@ -14,6 +14,10 @@ con = psycopg2.connect(
     port = "5432"
 )
 
+# cur = con.cursor()
+# cur.execute("select restourant_name from restourants")
+# rows = cur.fetchall() 
+
 
 class User:
     def __init__(self, restourant_name):
